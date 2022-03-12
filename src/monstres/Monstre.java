@@ -1,5 +1,10 @@
 package monstres;
 
-public interface Monstre {
+import partie.De;
 
+public interface Monstre {
+	
+	public De de = new De();
+	public boolean estMort();
+	public void setEstMort();
 }
